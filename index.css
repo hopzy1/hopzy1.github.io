@@ -48,11 +48,12 @@ button {
   transform: translateX(-50%);
   user-select: none;
   font-weight: 600;
-  transition: all 0.2s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 button:hover {
   background-color: #fff;
   color: #000;
   border-color: #000;
+  border: 3px solid #f9f9f9;
 }
