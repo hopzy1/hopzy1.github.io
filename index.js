@@ -18,3 +18,7 @@ params.forEach(([param, value]) => {
 
   container.append(paramBlock);
 });
+
+function goBack() {
+  window.history.back();
+}
