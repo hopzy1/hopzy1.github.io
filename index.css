@@ -33,3 +33,26 @@ body {
 .container p::first-letter {
   text-transform: uppercase;
 }
+
+button {
+  background: rgba(0, 0, 0, 0.5);
+  border: 3px solid #909090;
+  border-radius: 17px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  left: 50%;
+  padding: 0.5em 2em;
+  position: absolute;
+  top: 55%;
+  transform: translateX(-50%);
+  user-select: none;
+  font-weight: 600;
+  transition: all 0.2s ease 0s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
